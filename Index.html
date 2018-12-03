@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>О компании</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" media="screen" href="animate.css">
+    <script src="wow.min.js"></script>
+    <script>new WOW().init();</script>
+</head>
+<body>
+
+<!--
+    data-wow-offset: Дистанция от нижнего края браузера для начала анимации;
+    data-wow-duration: Изменение длительности анимации; (скорость)
+    data-wow-delay: Задержка перед стартом анимации;
+    data-wow-iteration: Сколько раз повторять анимацию?;
+
+    Пример использования анимации:
+
+    <div class="fadeInRight wow" data-wow-duration="2s" data-wow-delay="5s" data-wow-offset="10" data-wow-iteration="10">Some text/other div</div>
+
+    Сайт с примерами анимации (Можно спокойно пощёлкать и выбрать нужную:) )
+
+    https://daneden.github.io/animate.css/
+-->
+
+<!--
+    1) Дописать 3 строчки кода между отрывающимся и закрывающимся тегом head.
+    2) Скопировать файл animate.css и wow.min.js в соответствующие папки.
+    3) Добавить класс wow и класс с названием анимации элементу, который хотим с анимировать.
+-->
+
+<div>
+
+<div class="About-Company">
+
+        <p class="About-Company-Mini-title fadeInDown wow">о компании</p>
+        <p class="RealSolar-Big-title fadeIn wow">RealSolar</p><br/>
+        <p class="About-Company-Mini-title fadeInUp wow">нас рекомендуют соседям</p>
+        <div class="arrow">
+        <img src="down-arrow.png" class="fadeInDown animated infinite">
+        </div>
+
+</div>
+
+<div class="Year-block">
+
+    <div class="Year-block-img">
+        <div class="block-1-2 slideInLeft wow" data-wow-duration="1s">
+        <img src="P3180659r.JPG">
+        <img src="P5110818r.JPG">
+        </div>
+        <div class="block-3-4 slideInLeft wow" data-wow-duration="1.1s">
+        <img src="P6150986r.JPG">
+        <img src="P7171030r.JPG">
+        </div>
+    </div>
+
+    <div class="Year-block-text slideInRight wow" data-wow-duration="1.2s">
+        <div class="Title">Компания Реалсолар</div>
+        <div class="Text"><p>Еще в далеком 2010 году небольшая команда энтузиастов решила заниматься солнечной энергетикой. Был построен цех по изготовлению солнечных батарей, который включал в себя вакуумный ламинатор, вакуумные столы для установки солнечных ячеек, солнечный тестер для контроля выпускаемой продукции. Все было собрано нашими русскими руками и работало прекрасно.<br/> 
+                В 2012 году когда рынок солнечных батарей стал наводняться дешевой китайской продукцией, производство пришлось свернуть. 
+                <b>Тогда Мы стали интеграторами!</b> Интегратор это компания которая не просто продает товар, а предлагает готовые решения "под ключ".</p>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="Year-block">
+ 
+        <div class="Year-block-text slideInLeft wow" data-wow-duration="1s">
+            <div class="Text"><p>За 7 лет мы построили большое количество солнечных электростанций самого разного масштаба.
+                    Было реализовано огромное количество проектов по резервному электроснабжению загородных домов.
+                    Практически в каждом третьем проекте мы используем <b>АВР для запуска генераторных установок</b>.<br/>
+                    <br/>
+                    В 2015 году становится понятно, что мы должны сделать свой контроллер АВР, нам просто необходимо решение которого рынок не может нам предложить.
+                    В прошлом мы электронщики, программисты, разработчики печатных плат и радиоэлектронных устройств большой сложности. 
+            </div>
+        </div>
+    
+        <div class="Year-block-img">
+            <div class="block-1-2 slideInRight wow" data-wow-duration="1.1s">
+                <img src="P3180659r.JPG">
+                <img src="P5110818r.JPG">
+            </div>
+            <div class="block-3-4 slideInRight wow" data-wow-duration="1.2s">
+                <img src="P6150986r.JPG">
+                <img src="P7171030r.JPG">
+            </div>
+        </div>
+
+</div>
+
+
+<div class="Year-block">
+
+    <div class="Year-block-img">
+        <div class="block-1-2 slideInLeft wow" data-wow-duration="1s">
+        <img src="P3180659r.JPG">
+        <img src="P5110818r.JPG">
+        </div>
+        <div class="block-3-4 slideInLeft wow" data-wow-duration="1.1s">
+        <img src="P6150986r.JPG">
+        <img src="P7171030r.JPG">
+        </div>
+    </div>
+
+    <div class="Year-block-text slideInRight wow" data-wow-duration="1.2s">
+        <div class="Text"><p>Уже в 2015 году мы выпускаем первую версию АВР, который по набору функционала не отстает от аналогов на рынке.<br/>
+            В 2016 году в АВР появляется модуль GSM, добавляется связь с РС по USB (организовываем flаsh диск в памяти устройства). Начинается переработка в корпус на DIN рейку.<br/>
+            В начале 2017 года мы завершаем разработку АВР в новом корпусе, полностью переработав блок питания, установлен более быстрый процессор ARM, OLED дисплей заменен на цветной TFT с 1 млн. цветов. Полностью переработаны схемы защит от импульсных воздействий, и еще много много доработок.
+            С середины 2017 года наш контроллер поставляется дилерам и конечным потребителям в серийном варианте.</p>
+        </div>
+    </div>
+
+</div>
+</div>
+<!-- 
+comment About 2010 year, no text block
+
+<div class="year-2010-top fadeInUp wow" data-wow-delay="1s">
+    <div class="year-left-circle"></div>
+    <div class="year-left"></div>
+    <div class="year-in">2010</div>
+    <div class="year-right"></div>
+    <div class="year-right-circle"></div>
+</div>
+
+comment Title before text block
+
+<div></div>
+
+comment Only text block
+
+<div></div> -->
+
+</body>
+</html>

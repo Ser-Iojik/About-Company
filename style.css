@@ -1,0 +1,158 @@
+
+body {
+    margin: 0;
+}
+
+ .About-Company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(Solar.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 250px;
+    padding-top: 50px;
+    height: 350px;
+    width: 100%;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.About-Company > p {
+    margin: 15px;
+}
+
+    .RealSolar-Big-title {
+        text-align: center;
+        font-size: 80pt;
+        color: #fff;
+    }
+
+    .About-Company-Mini-title {
+        text-align: center;
+        font-size: 20pt;
+        color: #fff;
+    }
+
+.Year-block {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Year-block-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+
+    .Year-block-img > .block-1-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+        .Year-block-img > .block-1-2 > img {
+            padding-bottom: 20px;
+            padding-right: 20px;
+            width: 280px;
+            height: 280px;
+            object-fit: cover;
+        }
+
+    .Year-block-img > .block-3-4 {
+        display: flex;
+        flex-direction: row;
+        padding-right: 10px;
+    }
+
+        .Year-block-img > .block-3-4 > img {
+            padding-bottom: 20px;
+            padding-right: 20px;
+            width: 280px;
+            height: 280px;
+            object-fit: cover;
+        }
+
+.Year-block-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+
+.Title {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: 42px;
+}
+
+.Text {
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 22px;
+}
+
+    .Text > p {
+        margin: 0;
+        line-height: 1.4;
+    }
+
+/* .year-2010-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.year-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #fff;
+    border-width: 1px;
+    border-radius: 50vh;
+    background-color: #c24040;
+    width: 20%;
+    height: 6%;
+    font-size: 40pt;
+    color: #fff;
+}
+
+.year-left {
+    border-radius: 50vh 0vh 0vh 50vh;
+    width: 3%;
+    height: 1px;
+    background-color: #c24040;
+}
+
+
+
+.year-right {
+    border-radius: 0vh 50vh 50vh 0vh;
+    width: 3%;
+    height: 1px;
+    background-color: #c24040;
+}
+
+
+.year-left-circle {
+    border-radius: 50vh;
+    width: 20px;
+    height: 20px;
+    background-color: #ffd900;
+}
+
+.year-right-circle {
+    border-radius: 50vh;
+    width: 20px;
+    height: 20px;
+    background-color: #ffd900;
+} */
